@@ -186,4 +186,113 @@ body{
   background-color: brown;
   color: burlywood;
   border: 1px solid burlywood;
+
+}
+
+@media (max-width: 1024px) {
+  .main-container {
+    width: 85%;
+    margin: 5vh auto 2vh auto;
+  }
+
+  #task-entry {
+    width: 80%;
+  }
+
+  .added-task-list {
+    margin: 20px 50px;
+  }
+
+  .mode {
+    margin: 5px 10% 10px 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .about-app {
+    font-size: 1.3rem;
+  }
+
+  .main-container {
+    width: 90%;
+    margin: 5vh auto;
+    padding: 10px;
+  }
+
+  #task-entry {
+    width: 70%;
+    font-size: 1.1rem;
+  }
+
+  .task-add-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .add-button {
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  .added-task-list {
+    margin: 20px 20px;
+  }
+
+  .added-task-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .mode {
+    margin: 5px 5% 10px 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .about-app {
+    font-size: 1rem;
+  }
+
+  #task-entry {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .add-button {
+    width: 60%;
+  }
+
+  .added-task-list {
+    margin: 15px 10px;
+  }
+
+  .added-task-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .added-task-list li span {
+    font-size: 1.2rem;
+  }
+
+  .main-container .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mode {
+    margin: 5px 5% 10px 60%;
+    padding: 10px;
+  }
 }
