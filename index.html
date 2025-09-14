@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notely</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="heading">Notely</h1>
+  <p class="about-app">A Task Manager</p>
+  <div class="main-container" id="main-container">
+    <div class="navbar">
+      <ul>
+        <li class="filter total"><a href="">Total Tasks <span class="total-count"></span></a></li>
+        <li class="filter incomplete"><a href="">Incomplete Tasks <span class="incomplete-count"></span></a></li>
+        <li class="filter completed"><a href="">Completed Tasks <span class="complete-count"></span></a></li>
+      </ul>
+    </div>
+    <div class="task-add-box">
+      <input type="text" id="task-entry" placeholder=" Enter your task here...">
+    <button class="add-button">Add Task</button>
+    </div>
+    <ul class="added-task-list"></ul>
+  </div>
+  <button class="mode">Dark Mode</button>
+  <script src="script.js"></script>
+</body>
+</html>
